@@ -1,0 +1,6 @@
+framework module AmplitudeSessionReplay {
+  umbrella header "AmplitudeSessionReplay.h"
+  export *
+
+  module * { export * }
+}
