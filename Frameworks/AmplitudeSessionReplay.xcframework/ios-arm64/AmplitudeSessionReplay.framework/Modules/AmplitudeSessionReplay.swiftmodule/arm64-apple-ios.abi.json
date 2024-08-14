@@ -1,0 +1,3207 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Compression",
+        "printedName": "Compression",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AmplitudeSessionReplay6LoggerP5error7messageySS_tF",
+            "mangledName": "$s22AmplitudeSessionReplay6LoggerP5error7messageySS_tF",
+            "moduleName": "AmplitudeSessionReplay",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmplitudeSessionReplay.Logger>",
+            "sugared_genericSig": "<Self where Self : AmplitudeSessionReplay.Logger>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "warn",
+            "printedName": "warn(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AmplitudeSessionReplay6LoggerP4warn7messageySS_tF",
+            "mangledName": "$s22AmplitudeSessionReplay6LoggerP4warn7messageySS_tF",
+            "moduleName": "AmplitudeSessionReplay",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmplitudeSessionReplay.Logger>",
+            "sugared_genericSig": "<Self where Self : AmplitudeSessionReplay.Logger>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AmplitudeSessionReplay6LoggerP3log7messageySS_tF",
+            "mangledName": "$s22AmplitudeSessionReplay6LoggerP3log7messageySS_tF",
+            "moduleName": "AmplitudeSessionReplay",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmplitudeSessionReplay.Logger>",
+            "sugared_genericSig": "<Self where Self : AmplitudeSessionReplay.Logger>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AmplitudeSessionReplay6LoggerP5debug7messageySS_tF",
+            "mangledName": "$s22AmplitudeSessionReplay6LoggerP5debug7messageySS_tF",
+            "moduleName": "AmplitudeSessionReplay",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmplitudeSessionReplay.Logger>",
+            "sugared_genericSig": "<Self where Self : AmplitudeSessionReplay.Logger>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22AmplitudeSessionReplay6LoggerP",
+        "mangledName": "$s22AmplitudeSessionReplay6LoggerP",
+        "moduleName": "AmplitudeSessionReplay",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SessionReplay",
+        "printedName": "SessionReplay",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22AmplitudeSessionReplay0bC0C6apiKeySSvp",
+            "mangledName": "$s22AmplitudeSessionReplay0bC0C6apiKeySSvp",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay0bC0C6apiKeySSvg",
+                "mangledName": "$s22AmplitudeSessionReplay0bC0C6apiKeySSvg",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sampleRate",
+            "printedName": "sampleRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22AmplitudeSessionReplay0bC0C10sampleRateSfvp",
+            "mangledName": "$s22AmplitudeSessionReplay0bC0C10sampleRateSfvp",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay0bC0C10sampleRateSfvg",
+                "mangledName": "$s22AmplitudeSessionReplay0bC0C10sampleRateSfvg",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "optOut",
+            "printedName": "optOut",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22AmplitudeSessionReplay0bC0C6optOutSbvp",
+            "mangledName": "$s22AmplitudeSessionReplay0bC0C6optOutSbvp",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay0bC0C6optOutSbvg",
+                "mangledName": "$s22AmplitudeSessionReplay0bC0C6optOutSbvg",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logger",
+            "printedName": "logger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Logger",
+                "printedName": "any AmplitudeSessionReplay.Logger",
+                "usr": "s:22AmplitudeSessionReplay6LoggerP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22AmplitudeSessionReplay0bC0C6loggerAA6Logger_pvp",
+            "mangledName": "$s22AmplitudeSessionReplay0bC0C6loggerAA6Logger_pvp",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Logger",
+                    "printedName": "any AmplitudeSessionReplay.Logger",
+                    "usr": "s:22AmplitudeSessionReplay6LoggerP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay0bC0C6loggerAA6Logger_pvg",
+                "mangledName": "$s22AmplitudeSessionReplay0bC0C6loggerAA6Logger_pvg",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionId",
+            "printedName": "sessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22AmplitudeSessionReplay0bC0C9sessionIds5Int64VSgvp",
+            "mangledName": "$s22AmplitudeSessionReplay0bC0C9sessionIds5Int64VSgvp",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay0bC0C9sessionIds5Int64VSgvg",
+                "mangledName": "$s22AmplitudeSessionReplay0bC0C9sessionIds5Int64VSgvg",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay0bC0C9sessionIds5Int64VSgvs",
+                "mangledName": "$s22AmplitudeSessionReplay0bC0C9sessionIds5Int64VSgvs",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay0bC0C9sessionIds5Int64VSgvM",
+                "mangledName": "$s22AmplitudeSessionReplay0bC0C9sessionIds5Int64VSgvM",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22AmplitudeSessionReplay0bC0C8deviceIdSSSgvp",
+            "mangledName": "$s22AmplitudeSessionReplay0bC0C8deviceIdSSSgvp",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay0bC0C8deviceIdSSSgvg",
+                "mangledName": "$s22AmplitudeSessionReplay0bC0C8deviceIdSSSgvg",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay0bC0C8deviceIdSSSgvs",
+                "mangledName": "$s22AmplitudeSessionReplay0bC0C8deviceIdSSSgvs",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay0bC0C8deviceIdSSSgvM",
+                "mangledName": "$s22AmplitudeSessionReplay0bC0C8deviceIdSSSgvM",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:deviceId:sessionId:optOut:sampleRate:logger:serverZone:serverUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SessionReplay",
+                "printedName": "AmplitudeSessionReplay.SessionReplay",
+                "usr": "s:22AmplitudeSessionReplay0bC0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AmplitudeSessionReplay.Logger)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Logger",
+                    "printedName": "any AmplitudeSessionReplay.Logger",
+                    "usr": "s:22AmplitudeSessionReplay6LoggerP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ServerZone",
+                "printedName": "AmplitudeSessionReplay.ServerZone",
+                "hasDefaultArg": true,
+                "usr": "s:22AmplitudeSessionReplay10ServerZoneO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22AmplitudeSessionReplay0bC0C6apiKey8deviceId07sessionG06optOut10sampleRate6logger10serverZone0N3UrlACSS_SSSgs5Int64VSgSbSfAA6Logger_pSgAA06ServerO0OALtcfc",
+            "mangledName": "$s22AmplitudeSessionReplay0bC0C6apiKey8deviceId07sessionG06optOut10sampleRate6logger10serverZone0N3UrlACSS_SSSgs5Int64VSgSbSfAA6Logger_pSgAA06ServerO0OALtcfc",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AmplitudeSessionReplay0bC0C5startyyF",
+            "mangledName": "$s22AmplitudeSessionReplay0bC0C5startyyF",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AmplitudeSessionReplay0bC0C4stopyyF",
+            "mangledName": "$s22AmplitudeSessionReplay0bC0C4stopyyF",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flush",
+            "printedName": "flush()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AmplitudeSessionReplay0bC0C5flushyyF",
+            "mangledName": "$s22AmplitudeSessionReplay0bC0C5flushyyF",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22AmplitudeSessionReplay0bC0C",
+        "mangledName": "$s22AmplitudeSessionReplay0bC0C",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "zlib",
+        "printedName": "zlib",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage.CIFilterBuiltins",
+        "printedName": "CoreImage.CIFilterBuiltins",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "WebP",
+        "printedName": "WebP",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "Preconcurrency",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ServerZone",
+        "printedName": "ServerZone",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "US",
+            "printedName": "US",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AmplitudeSessionReplay.ServerZone.Type) -> AmplitudeSessionReplay.ServerZone",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServerZone",
+                    "printedName": "AmplitudeSessionReplay.ServerZone",
+                    "usr": "s:22AmplitudeSessionReplay10ServerZoneO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AmplitudeSessionReplay.ServerZone.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServerZone",
+                        "printedName": "AmplitudeSessionReplay.ServerZone",
+                        "usr": "s:22AmplitudeSessionReplay10ServerZoneO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22AmplitudeSessionReplay10ServerZoneO2USyA2CmF",
+            "mangledName": "$s22AmplitudeSessionReplay10ServerZoneO2USyA2CmF",
+            "moduleName": "AmplitudeSessionReplay"
+          },
+          {
+            "kind": "Var",
+            "name": "EU",
+            "printedName": "EU",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AmplitudeSessionReplay.ServerZone.Type) -> AmplitudeSessionReplay.ServerZone",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServerZone",
+                    "printedName": "AmplitudeSessionReplay.ServerZone",
+                    "usr": "s:22AmplitudeSessionReplay10ServerZoneO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AmplitudeSessionReplay.ServerZone.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServerZone",
+                        "printedName": "AmplitudeSessionReplay.ServerZone",
+                        "usr": "s:22AmplitudeSessionReplay10ServerZoneO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22AmplitudeSessionReplay10ServerZoneO2EUyA2CmF",
+            "mangledName": "$s22AmplitudeSessionReplay10ServerZoneO2EUyA2CmF",
+            "moduleName": "AmplitudeSessionReplay"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AmplitudeSessionReplay.ServerZone?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServerZone",
+                    "printedName": "AmplitudeSessionReplay.ServerZone",
+                    "usr": "s:22AmplitudeSessionReplay10ServerZoneO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22AmplitudeSessionReplay10ServerZoneO8rawValueACSgSS_tcfc",
+            "mangledName": "$s22AmplitudeSessionReplay10ServerZoneO8rawValueACSgSS_tcfc",
+            "moduleName": "AmplitudeSessionReplay",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22AmplitudeSessionReplay10ServerZoneO8rawValueSSvp",
+            "mangledName": "$s22AmplitudeSessionReplay10ServerZoneO8rawValueSSvp",
+            "moduleName": "AmplitudeSessionReplay",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AmplitudeSessionReplay10ServerZoneO8rawValueSSvg",
+                "mangledName": "$s22AmplitudeSessionReplay10ServerZoneO8rawValueSSvg",
+                "moduleName": "AmplitudeSessionReplay",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:22AmplitudeSessionReplay10ServerZoneO",
+        "mangledName": "$s22AmplitudeSessionReplay10ServerZoneO",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "amp_isBlocked",
+            "printedName": "amp_isBlocked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@AmplitudeSessionReplay@@objc(cs)UIView(py)amp_isBlocked",
+            "mangledName": "$sSo6UIViewC22AmplitudeSessionReplayE13amp_isBlockedSbvp",
+            "moduleName": "AmplitudeSessionReplay",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@AmplitudeSessionReplay@@objc(cs)UIView(im)amp_isBlocked",
+                "mangledName": "$sSo6UIViewC22AmplitudeSessionReplayE13amp_isBlockedSbvg",
+                "moduleName": "AmplitudeSessionReplay",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@AmplitudeSessionReplay@@objc(cs)UIView(im)setAmp_isBlocked:",
+                "mangledName": "$sSo6UIViewC22AmplitudeSessionReplayE13amp_isBlockedSbvs",
+                "moduleName": "AmplitudeSessionReplay",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "amp_setBlocked",
+            "printedName": "amp_setBlocked(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP22AmplitudeSessionReplayE14amp_setBlockedyQrSbF",
+            "mangledName": "$s7SwiftUI4ViewP22AmplitudeSessionReplayE14amp_setBlockedyQrSbF",
+            "moduleName": "AmplitudeSessionReplay",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CATransform3D",
+        "printedName": "CATransform3D",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CATransform3D",
+                "printedName": "QuartzCore.CATransform3D",
+                "usr": "c:@S@CATransform3D"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CATransform3D",
+                "printedName": "QuartzCore.CATransform3D",
+                "usr": "c:@S@CATransform3D"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So13CATransform3DV22AmplitudeSessionReplayE2eeoiySbAB_ABtFZ",
+            "mangledName": "$sSo13CATransform3DV22AmplitudeSessionReplayE2eeoiySbAB_ABtFZ",
+            "moduleName": "AmplitudeSessionReplay",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@S@CATransform3D",
+        "moduleName": "QuartzCore",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSValue",
+                    "printedName": "Foundation.NSValue",
+                    "usr": "c:objc(cs)NSValue"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Storage\/StorageCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 190,
+      "length": 9,
+      "value": "8000000"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Storage\/StorageCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 11,
+      "value": "100000000"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Storage\/StorageCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Storage\/StorageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Storage\/StorageCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1243,
+      "length": 37,
+      "value": "\"com.amplitude.sessionreplay.storage\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Storage\/StorageCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1475,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 401,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 401,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 401,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6164,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6194,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6219,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6241,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6264,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6289,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6164,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6194,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6219,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6241,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6264,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6289,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6164,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6194,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6219,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6241,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6264,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6289,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "StringLiteral",
+      "offset": 6365,
+      "length": 12,
+      "value": "\"BackCompat\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "StringLiteral",
+      "offset": 6404,
+      "length": 12,
+      "value": "\"CSS1Compat\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "StringLiteral",
+      "offset": 6365,
+      "length": 12,
+      "value": "\"BackCompat\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "StringLiteral",
+      "offset": 6404,
+      "length": 12,
+      "value": "\"CSS1Compat\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "Array",
+      "offset": 7093,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "Dictionary",
+      "offset": 10050,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "Array",
+      "offset": 10089,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15715,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15742,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15776,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15800,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15832,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15855,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15882,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15916,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15948,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15980,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16002,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16024,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16047,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16082,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16110,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16146,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16178,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15715,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15742,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15776,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15800,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15832,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15855,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15882,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15916,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15948,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15980,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16002,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16024,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16047,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16082,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16110,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16146,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16178,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15715,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15742,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15776,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15800,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15832,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15855,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15882,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15916,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15948,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15980,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16002,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16024,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16047,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16082,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16110,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16146,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16178,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19159,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19186,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19209,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19238,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19264,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19287,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19309,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19337,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19372,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19398,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19427,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19159,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19186,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19209,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19238,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19264,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19287,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19309,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19337,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19372,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19398,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19427,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19159,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19186,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19209,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19238,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19264,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19287,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19309,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19337,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19372,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19398,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19427,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19518,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19541,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19518,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19541,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19518,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19541,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20413,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20436,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20460,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20490,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20518,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20413,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20436,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20460,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20490,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20518,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20413,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20436,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20460,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20490,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20518,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "Array",
+      "offset": 21576,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "Array",
+      "offset": 21621,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22520,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22544,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22520,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22544,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22520,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/RRWeb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22544,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/VisualEffectParser.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 25,
+      "value": "\".* style=([a-zA-Z0-9]+)\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/VisualEffectParser.swift",
+      "kind": "StringLiteral",
+      "offset": 672,
+      "length": 59,
+      "value": "\".* style=([a-zA-Z0-9]+)(?: vibrancyStyle=([a-zA-Z0-9]+))?\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Converter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 339,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/UploadClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 780,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/UploadClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 851,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/UploadClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 887,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/UploadClient.swift",
+      "kind": "StringLiteral",
+      "offset": 922,
+      "length": 48,
+      "value": "\"https:\/\/api-sr.amplitude.com\/sessions\/v2\/track\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/UploadClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1004,
+      "length": 51,
+      "value": "\"https:\/\/api-sr.eu.amplitude.com\/sessions\/v2\/track\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/UploadClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1359,
+      "length": 36,
+      "value": "\"com.amplitude.sessionreplay.upload\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/UploadClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1567,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/UploadClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5058,
+      "length": 15,
+      "value": "\"AmplitudeSessionReplay.UploadOperation\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/Filter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2195,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/LayerObserver.swift",
+      "kind": "Array",
+      "offset": 1256,
+      "length": 662,
+      "value": "[\\.<NOT_IMPLEMENTED>, \"contentsMultiplyColor\"]"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/View+AmplitudeSessionReplay.swift",
+      "kind": "StringLiteral",
+      "offset": 677,
+      "length": 24,
+      "value": "\"AmplitudeSessionReplay.AmplitudeBlockMarkerView\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/VisualEffectFilterMapping.swift",
+      "kind": "Dictionary",
+      "offset": 3424,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/VisualEffectFilterMapping.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4914,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/VisualEffectFilterMapping.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5211,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Serializer.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 38,
+      "value": "\"com.amplitude.sessionreplay.renderer\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Serializer.swift",
+      "kind": "Array",
+      "offset": 558,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Serializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11082,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Serializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11139,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Snapshotter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 325,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Snapshotter.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 11,
+      "value": "\"AmplitudeSessionReplay.Snapshotter\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Snapshotter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2676,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/AmplitudeSessionReplayGestureRecognizer.swift",
+      "kind": "Array",
+      "offset": 497,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/AmplitudeSessionReplayGestureRecognizer.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 39,
+      "value": "\"AmplitudeSessionReplay.AmplitudeSessionReplayGestureRecognizer\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 215,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 215,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 215,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Util\/ConsoleLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/SessionReplay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 995,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/SessionReplay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1153,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/SessionReplay.swift",
+      "kind": "FloatLiteral",
+      "offset": 1196,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Storage\/PersistentStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 711,
+      "length": 29,
+      "value": "\"com.amplitude.sessionreplay\""
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/ImageEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 912,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/ImageEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 976,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/ImageEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1034,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Storage\/InMemoryStorage.swift",
+      "kind": "Dictionary",
+      "offset": 807,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Identifiers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 2,
+      "value": "99"
+    }
+  ]
+}
