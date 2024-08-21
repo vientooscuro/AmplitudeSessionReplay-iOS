@@ -77,7 +77,7 @@ analytics.add(plugin: AmplitudeSegmentSessionReplayPlugin(amplitudeApiKey: "AMPL
 
 2. Import the framework:
 ```
-import AmplitudeSegmentSessionReplayPlugin
+import AmplitudeSessionReplay
 ```
 
 3. Initialize `AmplitudeSessionReplay`, and make sure to retain a copy of the instance:
