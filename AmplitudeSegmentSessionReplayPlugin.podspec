@@ -1,4 +1,4 @@
-amplitude_version = "0.0.1" # Version is managed automatically by semantic-release, please don't change it manually
+amplitude_version = "0.0.2" # Version is managed automatically by semantic-release, please don't change it manually
 
 Pod::Spec.new do |s|
   s.name                   = "AmplitudeSegmentSessionReplayPlugin"
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target  = '13.0'
   s.source_files = 'Sources/AmplitudeSegmentSessionReplayPlugin/**/*'
+
   s.dependency 'AnalyticsSwift', '~> 1.9'
-  s.dependency 'AmplitudeSessionReplay', '0.0.2'
+  s.dependency 'AmplitudeSessionReplay', amplitude_version
 end
