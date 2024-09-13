@@ -286,13 +286,20 @@
       },
       {
         "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "AmplitudeSessionReplay",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
       },
       {
         "kind": "Import",
@@ -3150,7 +3157,7 @@
     {
       "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Models\/LayerObserver.swift",
       "kind": "Array",
-      "offset": 1256,
+      "offset": 1276,
       "length": 662,
       "value": "[\\.<NOT_IMPLEMENTED>, \"contentsMultiplyColor\"]"
     },
