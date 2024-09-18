@@ -40,6 +40,8 @@ import AmplitudeSwiftSessionReplayPlugin
 amplitude.add(plugin: AmplitudeSwiftSessionReplayPlugin())
 ```
 
+[Developer docs](https://amplitude.com/docs/session-replay/session-replay-ios-plugin)
+
 ### Amplitude-iOS
 
 1. Use target/subspec: `AmplitudeiOSSessionReplayMiddleware`
@@ -53,6 +55,8 @@ import AmplitudeiOSSessionReplayMiddleware
 ```
 amplitude.addEventMiddleware(AmplitudeiOSSessionReplayMiddleware())
 ```
+
+[Developer docs](https://amplitude.com/docs/session-replay/session-replay-ios-middleware)
 
 ### Segment (Analytics-Swift, Amplitude (Actions) Destination, SegmentAmplitude Plugin)
 
@@ -70,6 +74,8 @@ let analytics = Analytics(configuration: config)
 analytics.add(plugin: AmplitudeSession())
 analytics.add(plugin: AmplitudeSegmentSessionReplayPlugin(amplitudeApiKey: "AMPLITUDE_API_KEY"))
 ```
+
+[Developer docs](https://amplitude.com/docs/session-replay/session-replay-ios-segment-integration)
 
 ### Standalone / Third Party
 
@@ -103,6 +109,7 @@ event.eventProperties = eventProperties
 sessionReplay.start()
 ```
 
+[Developer docs](https://amplitude.com/docs/session-replay/session-replay-ios-standalone-sdk)
 
 ## Need Help?
-If you have any issues using our SDK, feel free to [create a GitHub issue](https://github.com/amplitude/Amplitude-SDK-Template/issues/new) or submit a request on [Amplitude Help](https://help.amplitude.com/hc/en-us/requests/new).
+If you have any issues using our SDK, feel free to [create a GitHub issue](https://github.com/amplitude/AmplitudeSessionReplay-iOS/issues/new/choose) or submit a request on [Amplitude Help](https://help.amplitude.com/hc/en-us/requests/new).
