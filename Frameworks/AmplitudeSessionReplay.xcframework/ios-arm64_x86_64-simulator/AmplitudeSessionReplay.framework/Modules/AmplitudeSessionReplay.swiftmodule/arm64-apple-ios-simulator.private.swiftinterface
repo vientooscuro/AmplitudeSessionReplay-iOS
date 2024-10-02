@@ -31,6 +31,19 @@ extension UIKit.UIView {
   @objc func log(message: Swift.String)
   @objc func debug(message: Swift.String)
 }
+@objc public enum MaskLevel : Swift.Int, Swift.CustomStringConvertible {
+  case light = 0
+  case medium = 1
+  case conservative = 2
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 extension SwiftUI.View {
   public func amp_setBlocked(_ blocked: Swift.Bool) -> some SwiftUI.View
   
@@ -39,8 +52,14 @@ public typealias SessionId = Swift.Int64
 public typealias DeviceId = Swift.String
 @objc(AMPSessionReplay) final public class SessionReplay : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc final public let apiKey: Swift.String
-  @objc final public let sampleRate: Swift.Float
   @objc final public let logger: any AmplitudeSessionReplay.Logger
+  @objc final public let enableRemoteConfig: Swift.Bool
+  @objc final public var sampleRate: Swift.Float {
+    @objc get
+  }
+  @objc final public var maskLevel: AmplitudeSessionReplay.MaskLevel {
+    get
+  }
   @objc final public var optOut: Swift.Bool {
     @objc get
     @objc set
@@ -56,7 +75,7 @@ public typealias DeviceId = Swift.String
   @objc final public var additionalEventProperties: [Swift.String : Any] {
     @objc get
   }
-  @objc public init(apiKey: Swift.String, deviceId: AmplitudeSessionReplay.DeviceId? = nil, sessionId: AmplitudeSessionReplay.SessionId = -1, optOut: Swift.Bool = false, sampleRate: Swift.Float = 0.0, logger: (any AmplitudeSessionReplay.Logger)? = nil, serverZone: AmplitudeSessionReplay.ServerZone = .US)
+  @objc public init(apiKey: Swift.String, deviceId: AmplitudeSessionReplay.DeviceId? = nil, sessionId: AmplitudeSessionReplay.SessionId = -1, optOut: Swift.Bool = false, sampleRate: Swift.Float = 0.0, logger: (any AmplitudeSessionReplay.Logger)? = nil, serverZone: AmplitudeSessionReplay.ServerZone = .US, maskLevel: AmplitudeSessionReplay.MaskLevel = .medium, enableRemoteConfig: Swift.Bool = true)
   @objc final public func start()
   @objc final public func stop()
   @objc final public func flush()
@@ -74,6 +93,9 @@ extension QuartzCore.CATransform3D : Swift.Equatable {
     get
   }
 }
+extension AmplitudeSessionReplay.MaskLevel : Swift.Equatable {}
+extension AmplitudeSessionReplay.MaskLevel : Swift.Hashable {}
+extension AmplitudeSessionReplay.MaskLevel : Swift.RawRepresentable {}
 extension AmplitudeSessionReplay.ServerZone : Swift.Equatable {}
 extension AmplitudeSessionReplay.ServerZone : Swift.Hashable {}
 extension AmplitudeSessionReplay.ServerZone : Swift.RawRepresentable {}
