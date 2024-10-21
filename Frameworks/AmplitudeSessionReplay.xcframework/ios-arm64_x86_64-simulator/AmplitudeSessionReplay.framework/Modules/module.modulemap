@@ -17,3 +17,8 @@ framework module AmplitudeSessionReplay {
       export *
   }
 }
+
+module AmplitudeSessionReplay.Swift {
+  header "AmplitudeSessionReplay-Swift.h"
+  requires objc
+}

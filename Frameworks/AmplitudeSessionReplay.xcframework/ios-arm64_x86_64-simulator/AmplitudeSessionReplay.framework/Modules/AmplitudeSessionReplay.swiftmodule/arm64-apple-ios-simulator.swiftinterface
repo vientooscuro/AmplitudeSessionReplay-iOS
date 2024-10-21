@@ -10,6 +10,7 @@ import CommonCrypto
 import Compression
 import CoreImage
 import Foundation
+import MapKit
 import Network
 import QuartzCore
 import Swift
