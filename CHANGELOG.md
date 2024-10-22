@@ -1,3 +1,10 @@
+## [0.0.11](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.0.10...v0.0.11) (2024-10-22)
+
+
+### Bug Fixes
+
+* update pod repo before releasing dependent cocoapods ([73398f1](https://github.com/amplitude/AmplitudeSessionReplay-iOS/commit/73398f1c4fced49bbd5ad93a6bdc9dbb0adaf969))
+
 ## [0.0.10](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.0.9...v0.0.10) (2024-10-22)
 
 
