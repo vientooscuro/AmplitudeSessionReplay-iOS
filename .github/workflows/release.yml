@@ -33,7 +33,7 @@ jobs:
           sudo xcode-select -switch /Applications/Xcode_15.2.app
 
       - name: Validate Podfile
-        run: pod lib lint --allow-warnings
+        run: pod lib lint --allow-warnings AmplitudeSessionReplay.podspec
 
       - name: Semantic Release --dry-run
         if: ${{ github.event.inputs.dryRun == 'true'}}
