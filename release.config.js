@@ -19,7 +19,7 @@ module.exports = {
       {
         "replacements": [
           {
-            "files": ["AmplitudeSwift.podspec"],
+            "files": ["AmplitudeSessionReplay.podspec", "AmplitudeiOSSessionReplayMiddleware.podspec", "AmplitudeSwiftSessionReplayPlugin.podspec"],
             "from": "amplitude_version = \".*\"",
             "to": "amplitude_version = \"${nextRelease.version}\"",
             "results": [
