@@ -6,7 +6,6 @@
 </p>
 
 
-# ⚠️ Pre-release (ALPHA) ⚠️
 # AmplitudeSessionReplay-iOS
 
 This is Amplitude's latest version of the Session Replay SDK for iOS.
@@ -44,14 +43,16 @@ amplitude.add(plugin: AmplitudeSwiftSessionReplayPlugin())
 
 ### Amplitude-iOS
 
-1. Use target/subspec: `AmplitudeiOSSessionReplayMiddleware`
+1. Make sure the Analytics SDK is on version 8.22.0 or higher
+  
+2. Use target/subspec: `AmplitudeiOSSessionReplayMiddleware`
 
-2. Import the framework:
+3. Import the framework:
 ```
 import AmplitudeiOSSessionReplayMiddleware
 ```
 
-3. Add the plugin to your Amplitude instance:
+4. Add the plugin to your Amplitude instance:
 ```
 amplitude.addEventMiddleware(AmplitudeiOSSessionReplayMiddleware())
 ```
