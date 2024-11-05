@@ -16,6 +16,7 @@ import QuartzCore
 import Swift
 import SwiftUI
 import UIKit
+import WebKit
 import WebP
 import _Concurrency
 import _StringProcessing

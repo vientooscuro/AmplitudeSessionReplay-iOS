@@ -711,6 +711,13 @@
       },
       {
         "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AmplitudeSessionReplay"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3726,14 +3733,14 @@
     {
       "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Serializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11550,
+      "offset": 11642,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Serializer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11607,
+      "offset": 11699,
       "length": 1,
       "value": "1"
     },
@@ -3810,21 +3817,21 @@
     {
       "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Snapshotter.swift",
       "kind": "IntegerLiteral",
-      "offset": 592,
+      "offset": 606,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Snapshotter.swift",
       "kind": "Array",
-      "offset": 835,
+      "offset": 849,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chris.leonavicius\/src\/session-replay-ios\/AmplitudeSessionReplay\/AmplitudeSessionReplay\/Snapshotter.swift",
       "kind": "StringLiteral",
-      "offset": 345,
+      "offset": 359,
       "length": 11,
       "value": "\"AmplitudeSessionReplay.Snapshotter\""
     },
