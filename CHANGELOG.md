@@ -1,3 +1,10 @@
+## [0.0.15](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.0.14...v0.0.15) (2024-12-13)
+
+
+### Bug Fixes
+
+* Empty commit to trigger a build ([14ad3c7](https://github.com/amplitude/AmplitudeSessionReplay-iOS/commit/14ad3c7e2df8199d68ed314f16a803e33205c3f1))
+
 ## [0.0.14](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.0.13...v0.0.14) (2024-11-25)
 
 
