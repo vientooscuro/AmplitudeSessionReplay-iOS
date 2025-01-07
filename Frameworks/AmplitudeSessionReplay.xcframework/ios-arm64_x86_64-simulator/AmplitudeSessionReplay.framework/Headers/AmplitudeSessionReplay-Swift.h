@@ -349,6 +349,7 @@ SWIFT_CLASS_NAMED("SessionReplay")
 @property (nonatomic) BOOL amp_isBlocked;
 @end
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -707,6 +708,7 @@ SWIFT_CLASS_NAMED("SessionReplay")
 @interface UIView (SWIFT_EXTENSION(AmplitudeSessionReplay))
 @property (nonatomic) BOOL amp_isBlocked;
 @end
+
 
 #endif
 #if __has_attribute(external_source_symbol)
