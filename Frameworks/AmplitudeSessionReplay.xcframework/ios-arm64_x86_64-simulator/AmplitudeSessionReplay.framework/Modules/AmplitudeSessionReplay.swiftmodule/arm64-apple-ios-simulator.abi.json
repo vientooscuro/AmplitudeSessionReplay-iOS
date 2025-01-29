@@ -3631,133 +3631,133 @@
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5359,
+      "offset": 5626,
       "length": 23,
       "value": "\"amp_injected_recorder\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5429,
+      "offset": 5696,
       "length": 29,
       "value": "\"amp_injected_session_replay\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5549,
+      "offset": 5816,
       "length": 14,
       "value": "\"rrweb-record\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5657,
+      "offset": 5924,
       "length": 4,
       "value": "\"js\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5795,
+      "offset": 6062,
       "length": 1109,
       "value": "\"if (typeof window.rrwebRecord === 'undefined') {\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5865,
+      "offset": 6132,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5868,
+      "offset": 6135,
       "length": 1,
       "value": "\"\n}\n\n(function() {\n    if (typeof window.rrwebRecord === 'undefined') {\n        throw new Error(\"Unable to access rrweb\");\n    }\n    if (typeof window.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6041,
+      "offset": 6308,
       "length": 3,
       "value": "\" === 'undefined') {\n        window.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6099,
+      "offset": 6366,
       "length": 1,
       "value": "\" = {\n            stopCurrentRecording: null,\n            record: function() {\n                window.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6223,
+      "offset": 6490,
       "length": 1,
       "value": "\".stopCurrentRecording?.();\n                window.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6296,
+      "offset": 6563,
       "length": 1,
       "value": "\".stopCurrentRecording = rrwebRecord({\n                    emit(event) {\n                        const obj = {'event': JSON.stringify(event)};\n                        window.webkit.messageHandlers.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6515,
+      "offset": 6782,
       "length": 1,
       "value": "\".postMessage(obj);\n                    },\n                    recordAfter: 'DOMContentLoaded',\n                    inlineStylesheet: false,\n                    slimDOMOptions: 'all'\n                });\n            }\n        };\n        addEventListener('DOMContentLoaded', window.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6817,
+      "offset": 7084,
       "length": 1,
       "value": "\".record);\n    }\n    window.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6867,
+      "offset": 7134,
       "length": 1,
       "value": "\".record();\n    return true;\n})();\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7175,
+      "offset": 7442,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7412,
+      "offset": 7679,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7561,
+      "offset": 7828,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7662,
+      "offset": 7929,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "Dictionary",
-      "offset": 21182,
+      "offset": 21449,
       "length": 3,
       "value": "[]"
     },
