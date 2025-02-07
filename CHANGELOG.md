@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.1.1...v0.1.2) (2025-02-07)
+
+
+### Bug Fixes
+
+* empty commit to trigger a build: fix podspec ([3241866](https://github.com/amplitude/AmplitudeSessionReplay-iOS/commit/32418664c619d02dcfaa7f3178bd7a35db373589))
+
 ## [0.1.1](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.1.0...v0.1.1) (2025-01-29)
 
 
