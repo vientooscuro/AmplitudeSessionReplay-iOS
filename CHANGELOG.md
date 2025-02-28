@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.1.5...v0.2.0) (2025-02-28)
+
+
+### Features
+
+* update framework, provide map support ([#24](https://github.com/amplitude/AmplitudeSessionReplay-iOS/issues/24)) ([a604e31](https://github.com/amplitude/AmplitudeSessionReplay-iOS/commit/a604e31c5045762dcb5b4dd4736d85eff9704b82))
+
 ## [0.1.5](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.1.4...v0.1.5) (2025-02-27)
 
 
