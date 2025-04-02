@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.2.2...v0.3.0) (2025-04-02)
+
+
+### Features
+
+* add autoStart option to plugin ([#25](https://github.com/amplitude/AmplitudeSessionReplay-iOS/issues/25)) ([6d8a207](https://github.com/amplitude/AmplitudeSessionReplay-iOS/commit/6d8a207a077c2c461d45e16dd1c7077c8d898058))
+
 ## [0.2.2](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.2.1...v0.2.2) (2025-03-10)
 
 
