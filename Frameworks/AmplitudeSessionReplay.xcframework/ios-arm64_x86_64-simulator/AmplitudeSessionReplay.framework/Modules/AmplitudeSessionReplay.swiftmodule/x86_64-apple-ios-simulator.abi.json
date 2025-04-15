@@ -3765,126 +3765,98 @@
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6306,
+      "offset": 7368,
       "length": 23,
       "value": "\"amp_injected_recorder\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6376,
+      "offset": 7438,
       "length": 29,
       "value": "\"amp_injected_session_replay\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6496,
-      "length": 14,
-      "value": "\"rrweb-record\""
+      "offset": 7558,
+      "length": 9,
+      "value": "\"webview\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6604,
+      "offset": 7661,
       "length": 4,
       "value": "\"js\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6742,
-      "length": 1038,
-      "value": "\"if (typeof window.rrweb?.record === 'undefined') {\n\""
+      "offset": 7753,
+      "length": 117,
+      "value": "\"{'callbackName': '\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6814,
+      "offset": 7795,
+      "length": 3,
+      "value": "\"','messageHandler': window.webkit.messageHandlers.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7868,
+      "length": 1,
+      "value": "\"}\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7939,
+      "length": 17,
+      "value": "\"INJECTED_CONFIG\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7981,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6817,
-      "length": 1,
-      "value": "\"\n}\n\n(function() {\n    if (typeof window.rrweb?.record === 'undefined') {\n        throw new Error(\"Unable to access rrweb\");\n    }\n    if (typeof window.\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 6992,
-      "length": 3,
-      "value": "\" === 'undefined') {\n        window.\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7050,
-      "length": 1,
-      "value": "\" = {\n            stopCurrentRecording: null,\n            record: function() {\n                window.\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7174,
-      "length": 1,
-      "value": "\".stopCurrentRecording?.();\n                window.\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7247,
-      "length": 1,
-      "value": "\".stopCurrentRecording = window.rrweb.record({\n                    emit(event) {\n                        const obj = {'event': JSON.stringify(event)};\n                        window.webkit.messageHandlers.\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7474,
-      "length": 1,
-      "value": "\".postMessage(obj);\n                    },\n                    inlineStylesheet: false,\n                    slimDOMOptions: 'all',\n                    recordAfter: 'load',\n                });\n            }\n        };\n    }\n    setTimeout(window.\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 7741,
-      "length": 1,
-      "value": "\".record, 0);\n    return true;\n})();\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 8051,
+      "offset": 8254,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 8295,
+      "offset": 8498,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 8444,
+      "offset": 8647,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8545,
+      "offset": 8807,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Util\/WebViewHandler.swift",
       "kind": "Dictionary",
-      "offset": 22224,
+      "offset": 22486,
       "length": 3,
       "value": "[]"
     },
