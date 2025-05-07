@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.3.4...v0.4.0) (2025-05-07)
+
+
+### Features
+
+* unified sdk support ([#29](https://github.com/amplitude/AmplitudeSessionReplay-iOS/issues/29)) ([aebd066](https://github.com/amplitude/AmplitudeSessionReplay-iOS/commit/aebd06679888d468d1e4ccf73b2cc5b1b5d7525f))
+
 ## [0.3.4](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.3.3...v0.3.4) (2025-04-28)
 
 
