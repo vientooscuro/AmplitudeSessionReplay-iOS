@@ -1,3 +1,11 @@
+## [0.4.1](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.4.0...v0.4.1) (2025-05-21)
+
+
+### Bug Fixes
+
+* add macOS to Package.swift to support swift command ([#32](https://github.com/amplitude/AmplitudeSessionReplay-iOS/issues/32)) ([ccff3db](https://github.com/amplitude/AmplitudeSessionReplay-iOS/commit/ccff3db585b088e136744ef22d1afaf5dac8d878))
+* update min core version ([#31](https://github.com/amplitude/AmplitudeSessionReplay-iOS/issues/31)) ([6a205fa](https://github.com/amplitude/AmplitudeSessionReplay-iOS/commit/6a205fae62b42fe6d6a1d8cfcd5c96d2e80eab64))
+
 # [0.4.0](https://github.com/amplitude/AmplitudeSessionReplay-iOS/compare/v0.3.4...v0.4.0) (2025-05-07)
 
 
