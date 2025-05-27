@@ -957,15 +957,98 @@
                   "ObjC"
                 ],
                 "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Config",
+                    "printedName": "AmplitudeSessionReplay.SessionReplayPlugin.Config",
+                    "usr": "s:22AmplitudeSessionReplay0bC6PluginC6ConfigC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:22AmplitudeSessionReplay0bC6PluginC6ConfigCAEycfc",
+                "mangledName": "$s22AmplitudeSessionReplay0bC6PluginC6ConfigCAEycfc",
+                "moduleName": "AmplitudeSessionReplay",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
               }
             ],
             "declKind": "Class",
             "usr": "s:22AmplitudeSessionReplay0bC6PluginC6ConfigC",
             "mangledName": "$s22AmplitudeSessionReplay0bC6PluginC6ConfigC",
             "moduleName": "AmplitudeSessionReplay",
+            "objc_name": "AMPSessionReplayPluginConfig",
             "declAttributes": [
               "AccessControl",
-              "ObjCMembers"
+              "ObjCMembers",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
             ]
           },
           {
@@ -1096,13 +1179,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22AmplitudeSessionReplay0bC6PluginC07sessionC0AA0bC0CSgvp",
+            "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin(py)sessionReplay",
             "mangledName": "$s22AmplitudeSessionReplay0bC6PluginC07sessionC0AA0bC0CSgvp",
             "moduleName": "AmplitudeSessionReplay",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1127,10 +1211,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22AmplitudeSessionReplay0bC6PluginC07sessionC0AA0bC0CSgvg",
+                "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin(im)sessionReplay",
                 "mangledName": "$s22AmplitudeSessionReplay0bC6PluginC07sessionC0AA0bC0CSgvg",
                 "moduleName": "AmplitudeSessionReplay",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -1159,10 +1246,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22AmplitudeSessionReplay0bC6PluginC07sessionC0AA0bC0CSgvs",
+                "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin(im)setSessionReplay:",
                 "mangledName": "$s22AmplitudeSessionReplay0bC6PluginC07sessionC0AA0bC0CSgvs",
                 "moduleName": "AmplitudeSessionReplay",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -1194,7 +1284,7 @@
                 "kind": "TypeNominal",
                 "name": "SessionReplayPlugin",
                 "printedName": "AmplitudeSessionReplay.SessionReplayPlugin",
-                "usr": "c:@M@AmplitudeSessionReplay@objc(cs)SessionReplayPlugin"
+                "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin"
               },
               {
                 "kind": "TypeNominal",
@@ -1247,7 +1337,7 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AmplitudeSessionReplay@objc(cs)SessionReplayPlugin(im)initWithSampleRate:maskLevel:enableRemoteConfig:webviewMappings:autoStart:",
+            "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin(im)initWithSampleRate:maskLevel:enableRemoteConfig:webviewMappings:autoStart:",
             "mangledName": "$s22AmplitudeSessionReplay0bC6PluginC10sampleRate9maskLevel18enableRemoteConfig15webviewMappings9autoStartACSf_AA04MaskH0OSbSDyS2SGSbtcfc",
             "moduleName": "AmplitudeSessionReplay",
             "objc_name": "initWithSampleRate:maskLevel:enableRemoteConfig:webviewMappings:autoStart:",
@@ -1267,7 +1357,7 @@
                 "kind": "TypeNominal",
                 "name": "SessionReplayPlugin",
                 "printedName": "AmplitudeSessionReplay.SessionReplayPlugin",
-                "usr": "c:@M@AmplitudeSessionReplay@objc(cs)SessionReplayPlugin"
+                "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin"
               },
               {
                 "kind": "TypeNominal",
@@ -1278,11 +1368,13 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22AmplitudeSessionReplay0bC6PluginC6configA2C6ConfigC_tcfc",
+            "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin(im)initWithConfig:",
             "mangledName": "$s22AmplitudeSessionReplay0bC6PluginC6configA2C6ConfigC_tcfc",
             "moduleName": "AmplitudeSessionReplay",
+            "objc_name": "initWithConfig:",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -1436,11 +1528,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22AmplitudeSessionReplay0bC6PluginC5startyyF",
+            "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin(im)start",
             "mangledName": "$s22AmplitudeSessionReplay0bC6PluginC5startyyF",
             "moduleName": "AmplitudeSessionReplay",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1456,11 +1549,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22AmplitudeSessionReplay0bC6PluginC4stopyyF",
+            "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin(im)stop",
             "mangledName": "$s22AmplitudeSessionReplay0bC6PluginC4stopyyF",
             "moduleName": "AmplitudeSessionReplay",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1493,11 +1587,11 @@
                 "kind": "TypeNominal",
                 "name": "SessionReplayPlugin",
                 "printedName": "AmplitudeSessionReplay.SessionReplayPlugin",
-                "usr": "c:@M@AmplitudeSessionReplay@objc(cs)SessionReplayPlugin"
+                "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AmplitudeSessionReplay@objc(cs)SessionReplayPlugin(im)init",
+            "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin(im)init",
             "mangledName": "$s22AmplitudeSessionReplay0bC6PluginCACycfc",
             "moduleName": "AmplitudeSessionReplay",
             "overriding": true,
@@ -1512,9 +1606,10 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@AmplitudeSessionReplay@objc(cs)SessionReplayPlugin",
+        "usr": "c:@M@AmplitudeSessionReplay@objc(cs)AMPSessionReplayPlugin",
         "mangledName": "$s22AmplitudeSessionReplay0bC6PluginC",
         "moduleName": "AmplitudeSessionReplay",
+        "objc_name": "AMPSessionReplayPlugin",
         "declAttributes": [
           "AccessControl",
           "ObjC"
@@ -4599,28 +4694,28 @@
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Converter.swift",
       "kind": "IntegerLiteral",
-      "offset": 34404,
+      "offset": 34717,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Converter.swift",
       "kind": "IntegerLiteral",
-      "offset": 34410,
+      "offset": 34723,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Converter.swift",
       "kind": "IntegerLiteral",
-      "offset": 34420,
+      "offset": 34733,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/Converter.swift",
       "kind": "IntegerLiteral",
-      "offset": 34431,
+      "offset": 34744,
       "length": 1,
       "value": "1"
     },
@@ -4781,70 +4876,77 @@
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 519,
+      "offset": 593,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 635,
+      "offset": 709,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
       "kind": "Dictionary",
-      "offset": 703,
+      "offset": 777,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 752,
+      "offset": 826,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 318,
+      "length": 6,
+      "value": "\"AmplitudeSessionReplay.Config\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1107,
       "length": 33,
       "value": "\"com.amplitude.ios.sessionreplay\""
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 1263,
+      "offset": 1347,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1395,
+      "offset": 1479,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
       "kind": "Dictionary",
-      "offset": 1471,
+      "offset": 1555,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1528,
+      "offset": 1612,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/session-replay-ios\/session-replay-ios\/AmplitudeSessionReplay\/SessionReplayPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 170,
+      "offset": 194,
       "length": 19,
       "value": "\"AmplitudeSessionReplay.SessionReplayPlugin\""
     },

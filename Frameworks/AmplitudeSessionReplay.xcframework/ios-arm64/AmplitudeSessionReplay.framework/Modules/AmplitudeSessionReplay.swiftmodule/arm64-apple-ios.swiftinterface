@@ -49,8 +49,8 @@ extension SwiftUI.View {
   public func amp_setBlocked(_ blocked: Swift.Bool) -> some SwiftUI.View
   
 }
-@objc public class SessionReplayPlugin : ObjectiveC.NSObject, AmplitudeCore.UniversalPlugin {
-  @objcMembers public class Config {
+@objc(AMPSessionReplayPlugin) public class SessionReplayPlugin : ObjectiveC.NSObject, AmplitudeCore.UniversalPlugin {
+  @objc(AMPSessionReplayPluginConfig) @objcMembers public class Config : ObjectiveC.NSObject {
     @objc final public let sampleRate: Swift.Float
     @objc final public let maskLevel: AmplitudeSessionReplay.MaskLevel
     @objc final public let enableRemoteConfig: Swift.Bool
@@ -63,16 +63,16 @@ extension SwiftUI.View {
   public var name: Swift.String? {
     get
   }
-  public var sessionReplay: AmplitudeSessionReplay.SessionReplay?
+  @objc public var sessionReplay: AmplitudeSessionReplay.SessionReplay?
   @objc convenience public init(sampleRate: Swift.Float = 0.0, maskLevel: AmplitudeSessionReplay.MaskLevel = .medium, enableRemoteConfig: Swift.Bool = true, webviewMappings: [Swift.String : Swift.String] = [:], autoStart: Swift.Bool = true)
-  public init(config: AmplitudeSessionReplay.SessionReplayPlugin.Config = Config())
+  @objc public init(config: AmplitudeSessionReplay.SessionReplayPlugin.Config = Config())
   public func setup(analyticsClient: any AmplitudeCore.AnalyticsClient, amplitudeContext: AmplitudeCore.AmplitudeContext)
   public func execute<Event>(_ event: inout Event) where Event : AmplitudeCore.AnalyticsEvent
   public func onIdentityChanged(_ identity: any AmplitudeCore.AnalyticsIdentity)
   public func onSessionIdChanged(_ sessionId: Swift.Int64)
   public func onOptOutChanged(_ optOut: Swift.Bool)
-  public func start()
-  public func stop()
+  @objc public func start()
+  @objc public func stop()
   public func teardown()
   @objc deinit
 }

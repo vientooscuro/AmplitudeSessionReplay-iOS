@@ -333,10 +333,28 @@ SWIFT_CLASS_NAMED("SessionReplay")
 
 
 
+@class AMPSessionReplayPluginConfig;
 
-SWIFT_CLASS("_TtC22AmplitudeSessionReplay19SessionReplayPlugin")
-@interface SessionReplayPlugin : NSObject
+SWIFT_CLASS_NAMED("SessionReplayPlugin")
+@interface AMPSessionReplayPlugin : NSObject
+@property (nonatomic, strong) AMPSessionReplay * _Nullable sessionReplay;
 - (nonnull instancetype)initWithSampleRate:(float)sampleRate maskLevel:(enum MaskLevel)maskLevel enableRemoteConfig:(BOOL)enableRemoteConfig webviewMappings:(NSDictionary<NSString *, NSString *> * _Nonnull)webviewMappings autoStart:(BOOL)autoStart;
+- (nonnull instancetype)initWithConfig:(AMPSessionReplayPluginConfig * _Nonnull)config OBJC_DESIGNATED_INITIALIZER;
+- (void)start;
+- (void)stop;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("Config")
+@interface AMPSessionReplayPluginConfig : NSObject
+@property (nonatomic, readonly) float sampleRate;
+@property (nonatomic, readonly) enum MaskLevel maskLevel;
+@property (nonatomic, readonly) BOOL enableRemoteConfig;
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, NSString *> * _Nonnull webviewMappings;
+@property (nonatomic, readonly) BOOL autoStart;
+- (nonnull instancetype)initWithSampleRate:(float)sampleRate maskLevel:(enum MaskLevel)maskLevel enableRemoteConfig:(BOOL)enableRemoteConfig webviewMappings:(NSDictionary<NSString *, NSString *> * _Nonnull)webviewMappings autoStart:(BOOL)autoStart OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
