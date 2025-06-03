@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AmplitudeSessionReplay
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature StrictConcurrency -enable-bare-slash-regex -module-name AmplitudeSessionReplay
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Accelerate
 @_exported import AmplitudeCore
@@ -24,7 +25,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
 extension UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var amp_isBlocked: Swift.Bool {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var amp_isBlocked: Swift.Bool {
     @objc get
     @objc set
   }
@@ -45,8 +46,8 @@ extension CoreGraphics.CGImage {
     get
   }
 }
-extension SwiftUI.View {
-  public func amp_setBlocked(_ blocked: Swift.Bool) -> some SwiftUI.View
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func amp_setBlocked(_ blocked: Swift.Bool) -> some SwiftUICore.View
   
 }
 @objc(AMPSessionReplayPlugin) public class SessionReplayPlugin : ObjectiveC.NSObject, AmplitudeCore.UniversalPlugin {
@@ -108,9 +109,7 @@ public typealias DeviceId = Swift.String
   @objc final public var additionalEventProperties: [Swift.String : Any] {
     @objc get
   }
-  #if compiler(>=5.3) && $Actors
   @objc public init(apiKey: Swift.String, deviceId: AmplitudeSessionReplay.DeviceId? = nil, sessionId: AmplitudeSessionReplay.SessionId = -1, optOut: Swift.Bool = false, sampleRate: Swift.Float = 0.0, webviewMappings: [Swift.String : Swift.String] = [:], logger: (any AmplitudeCore.CoreLogger)? = nil, serverZone: AmplitudeCore.ServerZone = .US, maskLevel: AmplitudeSessionReplay.MaskLevel = .medium, enableRemoteConfig: Swift.Bool = true, remoteConfigClient: AmplitudeCore.RemoteConfigClient? = nil)
-  #endif
   @objc final public func start()
   @objc final public func stop()
   @objc final public func flush()
